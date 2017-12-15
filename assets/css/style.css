@@ -1,3 +1,7 @@
+    body {
+    background-color: rgb(229, 229, 229);
+}
+
 /* Navbar */
 .navbar-inverse .navbar-nav>li>a {
     color: white;
@@ -12,7 +16,117 @@
 .headerText {
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 40px;
     display: block;
     margin: 0 auto;
+    font-family: "Oswald";
 }
+
+/* Artist List */
+.artistHolder {
+    margin-top: 30px;
+}
+.artistNameBcg {
+    background-color: white;
+}
+.artistNameTour {
+    padding-left: 0;
+    padding-right: 0;
+}
+.artistName {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-size: 28px;
+    color: #de53f3;
+}
+.artistTour {
+    font-family: "Merriweather";
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+}
+.artistImage {
+    padding-left: 6px;
+    padding-right: 0;
+    width: 121px;
+}
+.artistInfo {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.artistDate {
+    background-color: black;
+    color: #de53f3;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    font-family: "Oswald";
+}
+.buyTickets {
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    font-size: 18px;
+    font-family: "Oswald";
+    background-color: #de53f3;
+    color: white;
+}
+
+.JULY_25__2015 {
+    font-size: 14px;
+    font-family: "Oswald";
+    color: rgb(222, 83, 243);
+    text-transform: uppercase;
+    line-height: 1.714;
+    -moz-transform: matrix( 1.00072201112918,0,0,1,0,0);
+    -webkit-transform: matrix( 1.00072201112918,0,0,1,0,0);
+    -ms-transform: matrix( 1.00072201112918,0,0,1,0,0);
+    position: absolute;
+    left: 27.078px;
+    top: 327.299px;
+    z-index: 234;
+  }
+  .Upcoming_Events {
+    font-size: 26px;
+    font-family: "Oswald";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 0.923;
+    -moz-transform: matrix( 1.00072201112918,0,0,1,0,0);
+    -webkit-transform: matrix( 1.00072201112918,0,0,1,0,0);
+    -ms-transform: matrix( 1.00072201112918,0,0,1,0,0);
+    position: absolute;
+    left: 33.884px;
+    top: 95.001px;
+    z-index: 244;
+  }
+  .The_Pink_Print_Tour {
+    font-size: 16px;
+    font-family: "Merriweather";
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    line-height: 1.5;
+    -moz-transform: matrix( 1.00203607033647,0,0,1,0,0);
+    -webkit-transform: matrix( 1.00203607033647,0,0,1,0,0);
+    -ms-transform: matrix( 1.00203607033647,0,0,1,0,0);
+    position: absolute;
+    left: 152.477px;
+    top: 224px;
+    z-index: 223;
+  }
+  .nicki_minaj_ {
+    font-size: 22px;
+    font-family: "Oswald";
+    color: rgb(222, 83, 243);
+    text-transform: uppercase;
+    line-height: 1.091;
+    -moz-transform: matrix( 1.00203607033647,0,0,1,0,0);
+    -webkit-transform: matrix( 1.00203607033647,0,0,1,0,0);
+    -ms-transform: matrix( 1.00203607033647,0,0,1,0,0);
+    position: absolute;
+    left: 136.161px;
+    top: 194.499px;
+    z-index: 224;
+  }
+  
