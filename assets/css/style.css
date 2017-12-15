@@ -16,10 +16,12 @@
 .headerText {
     text-align: center;
     width: 100%;
-    font-size: 40px;
+    font-size: 34px;
     display: block;
     margin: 0 auto;
     font-family: "Oswald";
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* Artist List */
@@ -63,14 +65,27 @@
     font-size: 18px;
     font-family: "Oswald";
 }
+.buyTicketsLink {
+    padding-left: 0;
+    padding-right: 0;
+}
+.ticketImg {
+    padding: 14px 0;
+    padding-left: 20%;
+    float: left;
+}
 .buyTickets {
-    text-align: center;
     line-height: 45px;
     height: 45px;
     font-size: 18px;
     font-family: "Oswald";
     background-color: #de53f3;
     color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+.buyTicketsText {
+    padding-left: 40%;
 }
 
 .JULY_25__2015 {
@@ -130,3 +145,31 @@
     z-index: 224;
   }
   
+  .CHVenue {
+    font-size: 30px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.8;
+    -moz-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
+    -webkit-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
+    -ms-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
+    position: absolute;
+    left: 28.715px;
+    top: 20px;
+    z-index: 276;
+  }
+  .CHVenue {
+    font-size: 30px;
+    font-family: "Lato";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 0.8;
+    -moz-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
+    -webkit-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
+    -ms-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
+    position: absolute;
+    left: 28.715px;
+    top: 22.5px;
+    z-index: 275;
+  }  
