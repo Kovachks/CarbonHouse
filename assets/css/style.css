@@ -16,12 +16,13 @@
 .headerText {
     text-align: center;
     width: 100%;
-    font-size: 34px;
+    font-size: 30px;
     display: block;
     margin: 0 auto;
     font-family: "Oswald";
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 /* Artist List */
@@ -41,12 +42,16 @@
     line-height: 1.1;
     font-size: 28px;
     color: #de53f3;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .artistTour {
     font-family: "Merriweather";
-    font-size: 17px;
+    padding-top: 5px;
+    font-size: 14px;
     font-style: italic;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 .artistImage {
     padding-left: 6px;
@@ -62,8 +67,16 @@
     color: #de53f3;
     height: 45px;
     line-height: 45px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Oswald";
+    text-transform: uppercase;
+}
+.tourDate {
+    float:left;
+}
+.tourDay {
+    float:right;
+    line-height: 35px;
 }
 .buyTicketsLink {
     padding-left: 0;
@@ -83,93 +96,37 @@
     color: white;
     padding-left: 0;
     padding-right: 0;
+    text-transform: uppercase;
 }
 .buyTicketsText {
     padding-left: 40%;
 }
 
-.JULY_25__2015 {
-    font-size: 14px;
-    font-family: "Oswald";
-    color: rgb(222, 83, 243);
-    text-transform: uppercase;
-    line-height: 1.714;
-    -moz-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -webkit-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -ms-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    position: absolute;
-    left: 27.078px;
-    top: 327.299px;
-    z-index: 234;
-  }
-  .Upcoming_Events {
-    font-size: 26px;
-    font-family: "Oswald";
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    line-height: 0.923;
-    -moz-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -webkit-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -ms-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    position: absolute;
-    left: 33.884px;
-    top: 95.001px;
-    z-index: 244;
-  }
-  .The_Pink_Print_Tour {
-    font-size: 16px;
-    font-family: "Merriweather";
-    color: rgb(0, 0, 0);
-    font-style: italic;
-    line-height: 1.5;
-    -moz-transform: matrix( 1.00203607033647,0,0,1,0,0);
-    -webkit-transform: matrix( 1.00203607033647,0,0,1,0,0);
-    -ms-transform: matrix( 1.00203607033647,0,0,1,0,0);
-    position: absolute;
-    left: 152.477px;
-    top: 224px;
-    z-index: 223;
-  }
-  .nicki_minaj_ {
-    font-size: 22px;
-    font-family: "Oswald";
-    color: rgb(222, 83, 243);
-    text-transform: uppercase;
-    line-height: 1.091;
-    -moz-transform: matrix( 1.00203607033647,0,0,1,0,0);
-    -webkit-transform: matrix( 1.00203607033647,0,0,1,0,0);
-    -ms-transform: matrix( 1.00203607033647,0,0,1,0,0);
-    position: absolute;
-    left: 136.161px;
-    top: 194.499px;
-    z-index: 224;
-  }
+/* Header */
+.navStyle {
+    padding-left: 5px;
+}
+.logoDiv {
+      color: white;
+      float: left;
+      text-transform: uppercase;
+      font-family: "Lato";
+      font-weight: 800;
+      letter-spacing: 2px;
+      height: 96%;
+      margin: 5px 0;
+      width: 120px;
+      background-color: rgb(46, 46, 46);
+}
+.leftLogoText{
+      font-size: 30px;
+      float: left;
+      padding-left: 5%;
+}
+.rightLogoText {
+      font-size: 15px;
+      padding-top: 18px;
+      float: left;
+      font-style: italic;
+}
   
-  .CHVenue {
-    font-size: 30px;
-    font-family: "Lato";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 0.8;
-    -moz-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
-    -webkit-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
-    -ms-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
-    position: absolute;
-    left: 28.715px;
-    top: 20px;
-    z-index: 276;
-  }
-  .CHVenue {
-    font-size: 30px;
-    font-family: "Lato";
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    line-height: 0.8;
-    -moz-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
-    -webkit-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
-    -ms-transform: matrix( 1.08005274723675,0,0,1.08182132598716,0,0);
-    position: absolute;
-    left: 28.715px;
-    top: 22.5px;
-    z-index: 275;
-  }  
