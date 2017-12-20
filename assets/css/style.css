@@ -146,7 +146,6 @@
     height: 392px;
     padding: 0;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 .newsLetterImage {
     width: 100%;
@@ -181,7 +180,7 @@
     letter-spacing: 1px;
     padding-top: 3px;
 }
-#connectedLink{
+#newsLetterLink{
     display: block;
     width: 90%;
     border: 2px solid white;
@@ -193,45 +192,51 @@
     padding: 10px 100px;
     margin: 25px auto 15px auto;
 }
-.Get_Connected {
-    font-size: 16px;
+
+/* Social/Directions */
+.getContainer{
+    background-color: white;
+    font-size: 22px;
     font-family: "Oswald";
-    color: rgb(255, 255, 255);
+    color: black;
+    padding: 0;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+.getHeaderText {
     text-transform: uppercase;
-    line-height: 1.5;
-    -moz-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -webkit-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -ms-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    position: absolute;
-    left: 87.973px;
-    top: 1793px;
-    z-index: 96;
-  }
-  .Rectangle_54 {
-    border-width: 2px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    position: absolute;
-    left: 28px;
-    top: 1779px;
-    width: 260px;
-    height: 48px;
-    z-index: 95;
-  }
-    
-.Stay_updated_on_the_best_concerts_and_most_hip_ {
-    font-size: 18px;
+}
+.getSubText {
+font-size: 16px;
+font-family: "Merriweather";
+color: #de53f3;
+font-style: italic;
+line-height: 1.5;
+letter-spacing: 0;
+}
+  
+  .Stay_Connected_Wherever_You_Are_ {
+    font-size: 16px;
     font-family: "Merriweather";
     color: rgb(222, 83, 243);
     font-style: italic;
-    line-height: 1.333;
-    text-align: center;
-    -moz-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -webkit-transform: matrix( 1.00072201112918,0,0,1,0,0);
-    -ms-transform: matrix( 1.00072201112918,0,0,1,0,0);
+    line-height: 1.5;
+    -moz-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
+    -webkit-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
+    -ms-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
     position: absolute;
-    left: 32.724px;
-    top: 1730.437px;
-    z-index: 98;
+    left: 22.213px;
+    top: 2000.904px;
+    z-index: 85;
   }
   
+
+.BKGD {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: -9px;
+  top: 1911px;
+  width: 334px;
+  height: 1032px;
+  z-index: 3;
+}
