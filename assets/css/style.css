@@ -221,18 +221,50 @@ letter-spacing: 1%;
 .socialLink {
     background-color: black;
     padding: 0 2%;
-    width: 33.13%;
+    width: 33%;
     height: 65px;
 }
 .socialLinkCenter {
-    margin: 0 1px;
+    margin: 0 .5%;
 }
 .socialImage {
     display: block;
     width:33%;
-    margin: 16px auto 17px auto;
-    height: 31px;
+    margin: 14px auto 17px auto;
+    height: 34px;
+}
+#instagram {
+    width: 25%;
+    height: 24px;
+    margin: 20px auto 21px auto;
+}
+#facebook {
+    width: 15%;
+    height: 20px;
+    margin: 22px auto 23px auto;
+}
+.tweetContainer {
+    background-color: rgb(229, 229, 229);
+    margin-top: 20px;
+    height: 350px;
+}
+.tweetDiv {
+    background-color: white;
+    height: 235px;
+}
+.tweetHeader {
+    margin: 12px 0;
+}
+.logoSmall {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-top: 4px; 
+}
+.tweetFooter {
+    background-color: #de53f3;
 }
 .socialLink:hover {
     background-color: #de53f3;
+    height: 70px;
 }
