@@ -205,6 +205,7 @@
 }
 .getHeaderText {
     text-transform: uppercase;
+    margin:0;
 }
 .getSubText {
 font-size: 16px;
@@ -212,31 +213,26 @@ font-family: "Merriweather";
 color: #de53f3;
 font-style: italic;
 line-height: 1.5;
-letter-spacing: 0;
+letter-spacing: 1%;
 }
-  
-  .Stay_Connected_Wherever_You_Are_ {
-    font-size: 16px;
-    font-family: "Merriweather";
-    color: rgb(222, 83, 243);
-    font-style: italic;
-    line-height: 1.5;
-    -moz-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
-    -webkit-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
-    -ms-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
-    position: absolute;
-    left: 22.213px;
-    top: 2000.904px;
-    z-index: 85;
-  }
-  
-
-.BKGD {
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  left: -9px;
-  top: 1911px;
-  width: 334px;
-  height: 1032px;
-  z-index: 3;
+.getSocialLinks {
+    border-top: 2px solid black;
+}
+.socialLink {
+    background-color: black;
+    padding: 0 2%;
+    width: 33.13%;
+    height: 65px;
+}
+.socialLinkCenter {
+    margin: 0 1px;
+}
+.socialImage {
+    display: block;
+    width:33%;
+    margin: 16px auto 17px auto;
+    height: 31px;
+}
+.socialLink:hover {
+    background-color: #de53f3;
 }
