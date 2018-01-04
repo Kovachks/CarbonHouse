@@ -204,11 +204,11 @@
     letter-spacing: 1px;
 }
 .getHeaderText {
-    font-size: 22px;
+    font-size: 24px;
     font-family: "Oswald";
     text-transform: uppercase;
     line-height: 1.091;
-    letter-spacing: 3.5px;
+    letter-spacing: 3.75px;
     font-weight: bold;
     margin:0;
 }
@@ -234,6 +234,7 @@ color: #de53f3;
 font-style: italic;
 line-height: 1.5;
 letter-spacing: 1%;
+margin: 5px 0 15px 0;
 }
 .getSocialLinks {
     border-top: 2px solid black;
@@ -293,13 +294,37 @@ letter-spacing: 1%;
     margin: 12px 0;
 }
 .tweetFollow {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Oswald";
     font-weight: bold;
     line-height: 1,375;
-    margin: 12px 15px;
-    letter-spacing: 2px;
+    margin: 17px 15px;
+    letter-spacing: 2.5px;
     text-transform: uppercase;
+}
+.tweetBody{
+    display: block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-family: "Lato";
+    line-height: 1.429
+}
+._axs:___dylangardner23_will_be_opening_for__The {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(222, 83, 243);
+    line-height: 1.429;
+    position: absolute;
+    left: 39.994px;
+    top: 2218.25px;
+    width: 212px;
+    height: 94px;
+    z-index: 44;
+  }
+  
+.tweetContainer a{
+    color: #de53f3;
 }
 .logoSmall {
     float: left;
