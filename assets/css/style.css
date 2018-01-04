@@ -325,4 +325,59 @@ letter-spacing: 1%;
     top: 2104px;
     z-index: 64;
   }
+
+/* Address */
+
+.address {
+    background-color: black;
+    height: 150px;
+    color: white;
+    display: block;
+}
+.addressTextHeader {
+    font-size: 18px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    line-height: 1.713;
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.addressText {
+    font-size: 16px;
+    font-family: "Oswald";
+    line-height: 1.713;
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.addressTextContainer {
+    padding: 32px 0;
+}
+.Address {
+    font-size: 14px;
+    font-family: "Oswald";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.713;
+    -moz-transform: matrix( 1.00001581941049,0,0,0.99908172635443,0,0);
+    -webkit-transform: matrix( 1.00001581941049,0,0,0.99908172635443,0,0);
+    -ms-transform: matrix( 1.00001581941049,0,0,0.99908172635443,0,0);
+    position: absolute;
+    left: 125.85px;
+    top: 2550.998px;
+    z-index: 24;
+  }
+  
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 0;
+}
+.mapContainer {
+    height: 400px;
+    margin-bottom: 40px;
+}
   
