@@ -279,12 +279,12 @@ margin: 5px 0 15px 0;
     white-space: nowrap;
 }
 .tweetHolder {
-    width: 5000px;
+    width: 900px;
 }
 .tweet {
     display: inline-block;
-    width: 5.5%;
-    margin: 0 .2% 0 0;
+    width: 32%;
+    margin: 0 .5% 0 0;
 }
 .tweetDiv {
     background-color: white;
