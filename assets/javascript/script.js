@@ -5,7 +5,7 @@ function overlayGenerate() {
         console.log(element)
         var width = ($(element).width())
         console.log($(element.child))
-        $(element).children().css('right', (width + 10) + 'px')
+        $(element).children().css('right', (width + 11) + 'px')
     }    
 }
 
