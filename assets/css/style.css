@@ -285,22 +285,7 @@
     letter-spacing: 3.75px;
     font-weight: bold;
     margin:0;
-}
-.Get_Social {
-    font-size: 22px;
-    font-family: "Oswald";
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    line-height: 1.091;
-    -moz-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
-    -webkit-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
-    -ms-transform: matrix( 1.00179019472379,0,0,0.99999999999998,0,0);
-    position: absolute;
-    left: 4.697px;
-    top: 1949.499px;
-    z-index: 86;
-  }
-  
+} 
 .getSubText {
 font-size: 16px;
 font-family: "Merriweather";
