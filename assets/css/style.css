@@ -255,6 +255,7 @@
     padding-top: 3px;
 }
 #newsLetterLink{
+    transition: all .5s ease;
     display: block;
     width: 90%;
     border: 2px solid white;
@@ -265,6 +266,13 @@
     color: white;
     padding: 10px 100px;
     margin: 25px auto 15px auto;
+    text-decoration: none;
+}
+#newsLetterLink:hover {
+    transition: all .5s ease;
+    background-color: #de53f3;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* Social/Directions */
@@ -305,6 +313,7 @@ margin: 5px 0 15px 0;
     padding-top:30px;
 }
 .socialLink {
+    transition: all .5s ease;
     background-color: black;
     padding: 0 2%;
     width: 33%;
@@ -395,6 +404,7 @@ margin: 5px 0 15px 0;
     background-color: #de53f3;
 }
 .socialLink:hover {
+    transition: all .5s ease;
     background-color: #de53f3;
     height: 70px;
 }
