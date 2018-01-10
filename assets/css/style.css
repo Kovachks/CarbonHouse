@@ -415,6 +415,29 @@ margin: 5px 0 15px 0;
 }
 .tweetFooter {
     background-color: #de53f3;
+    color: white;
+    font-size: 12px;
+    height: 35px;
+}
+.tweetTime {
+    float: left;
+    width: 50%;
+    margin: 9px 0;
+}
+.tweetButtons {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.tweetButtonIcon {
+    float: right;
+    margin-top: 11.5px;
+    margin-bottom: 11.5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    /* padding: 3px; */
+    height: 12px;
+    width: 12px;
 }
 .socialLink:hover {
     transition: all .5s ease;
