@@ -196,7 +196,7 @@
 }
 .buyTickets:hover .ticketImg {
     transition: all .5s ease;
-    padding: 17px 0 14px 0;
+    padding: 20px 0 14px 0;
     padding-left: 25%;
     float: left;
 }
@@ -307,13 +307,13 @@
     margin:0;
 } 
 .getSubText {
-font-size: 16px;
-font-family: "Merriweather";
-color: #de53f3;
-font-style: italic;
-line-height: 1.5;
-letter-spacing: 1%;
-margin: 5px 0 15px 0;
+    font-size: 16px;
+    font-family: "Merriweather";
+    color: #de53f3;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 1%;
+    margin: 5px 0 15px 0;
 }
 .getSocialLinks {
     border-top: 2px solid black;
@@ -390,20 +390,7 @@ margin: 5px 0 15px 0;
     font-size: 14px;
     font-family: "Lato";
     line-height: 1.429
-}
-._axs:___dylangardner23_will_be_opening_for__The {
-    font-size: 14px;
-    font-family: "Lato";
-    color: rgb(222, 83, 243);
-    line-height: 1.429;
-    position: absolute;
-    left: 39.994px;
-    top: 2218.25px;
-    width: 212px;
-    height: 94px;
-    z-index: 44;
-  }
-  
+}  
 .tweetContainer a{
     color: #de53f3;
 }
@@ -485,22 +472,7 @@ margin: 5px 0 15px 0;
 }
 .addressTextContainer {
     padding: 32px 0;
-}
-.Address {
-    font-size: 14px;
-    font-family: "Oswald";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.713;
-    -moz-transform: matrix( 1.00001581941049,0,0,0.99908172635443,0,0);
-    -webkit-transform: matrix( 1.00001581941049,0,0,0.99908172635443,0,0);
-    -ms-transform: matrix( 1.00001581941049,0,0,0.99908172635443,0,0);
-    position: absolute;
-    left: 125.85px;
-    top: 2550.998px;
-    z-index: 24;
-  }
-  
+} 
 #map {
     height: 400px;
     width: 100%;
@@ -510,4 +482,33 @@ margin: 5px 0 15px 0;
     height: 400px;
     margin-bottom: 40px;
 }
-  
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .socialLink {
+        height: 100px;
+    }
+    .socialImage {
+        height: 65px;
+    }
+    #instagram {
+        height: 52px;
+    }
+    #facebook {
+        height: 45px;
+    }
+    .socialLink:hover {
+        transition: all .5s ease;
+        background-color: #de53f3;
+        height: 115px;
+    }
+    .newsLetterContent {
+        width: 60%;
+        margin: 61px auto;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .newsLetterContent{
+        width: 50%;
+        margin: 61px auto;
+    }
+}
