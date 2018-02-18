@@ -78,7 +78,7 @@
 }
 .headerText {
     text-align: center;
-    width: 100%;
+
     font-size: 30px;
     display: block;
     margin: 0 auto;
@@ -354,7 +354,7 @@
 .tweetContainer {
     background-color: rgb(229, 229, 229);
     margin-top: 20px;
-    height: 350px;
+    height: 380px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -505,10 +505,103 @@
         width: 60%;
         margin: 61px auto;
     }
+    .nav {
+        font-size: 18px;
+        margin: 12.5px 0;
+    }
+    .getSocial {
+        height: 570px;
+    }
 }
-@media only screen and (min-width: 1024px) {
-    .newsLetterContent{
+@media (min-width: 1024px) {
+    .newsLetterContent {
         width: 50%;
         margin: 61px auto;
     }
+    .getDirections {
+        padding-top: 0;
+    }
+    .address {
+        height: 50px;
+    }
+    .addressTextContainer{
+        margin-left: 70px;
+        height: 50px;
+    }
+    .addressTextHeader{
+        display: inline-block;
+        font-size: 12px;
+        width: 50px;
+        margin: 0;
+        padding: 14px 0;
+    }
+    .addressText {
+        display: inline-block;
+        width: 40%;
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+    #streetAddress {
+        width: 150px;
+    }
+    #city {
+        width: 95px;
+        margin-left: -5px;
+    }
+    .addressTextContainer {
+        padding: 0;
+    }
+    .addressTextContainer p {
+        padding: 14px 0;
+    }
+    .socialLink {
+        height: 48px;
+    }
+    #facebook {
+        margin: 13px auto;
+    }
+    #instagram {
+        margin: 11px auto;
+    }
+    .socialImage {
+        margin: 6px auto;
+    }
+    .socialLink:hover {
+        height: 55px;
+    }
+    .newsLetter {
+        background-image: url("../images/newsletterLarge.png")
+    }
+    .newsLetterContent {
+        width: 50%;
+        height: 220px;
+    }
+    #newsLetterLink {
+        padding: 10px 50px;
+        width: 50%;
+    }
+    .nav {
+        font-size: 18px;
+        margin: 12.5px 0;
+    }
+    .headerText {
+        text-align: left;
+        font-size: 30px;
+        display: block;
+        margin: 0 auto;
+        font-family: "Oswald";
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .eventToggle{
+        align-content: right;
+    }
+    .grid{
+
+    }
+    .list{
+    }
 }
+@media only screen and ()
