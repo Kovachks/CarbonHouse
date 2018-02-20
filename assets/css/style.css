@@ -127,7 +127,11 @@
 .artistImage {
     padding-left: 6px;
     padding-right: 0;
-    width: 121px;
+    width: 121px;   
+}
+.artistImage img {
+    height: 100%;
+    width: 100%;
 }
 .artistInfo {
     position: static;
@@ -158,15 +162,6 @@
     top: -8px;
     left: 15px;
 }
-.BKGD_copy_6 {
-    background-color: rgb(58, 58, 58);
-    position: absolute;
-    left: 90px;
-    top: -14px;
-    width: 65px;
-    height: 76px;
-    z-index: 273;
-  }
   
 .triangleDown {
     position:absolute;
@@ -484,10 +479,10 @@
     height: 400px;
     margin-bottom: 40px;
 }
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+/* @media only screen and (min-width: 320px) and (max-width: 767px) {
     .eventToggle {
         display: none;
-    }   
+    }    */
     
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .socialLink {
@@ -584,7 +579,7 @@
     }
     .newsLetterContent {
         width: 50%;
-        height: 220px;
+        height: 255px;
     }
     #newsLetterLink {
         padding: 10px 50px;
@@ -592,7 +587,12 @@
     }
     .nav {
         font-size: 18px;
-        margin: 12.5px 0;
+        margin: 12.5px 2.5% 12.5px 0;
+        width: 65%;
+    }
+    .nav li {
+        width: 25%;
+        text-align: center;
     }
     .headerText {
         text-align: left;
@@ -614,6 +614,43 @@
     }
     .list{
         padding-bottom: 5px;
+    }
+    .artistInfo {
+        padding: 0;
+    }
+    .artistImage {
+        padding: 0;
+        width: 100%;
+    }
+    .artistImage img {
+        width: 100%;
+    }
+    .artistNameTour {
+        display: none;
+    }
+    .tourDay {
+        top: -5px;
+    }
+    .artistDate {
+        height: 35px;
+    }
+    .artistHolder {
+        padding:  0 .5%
+    }
+    .artistHolderLeft {
+        padding-left: 0;
+    }
+    .artistHolderRight {
+        padding-right: 0;
+    }
+    .main {
+        margin: 0 4.5%;
+        width: 91%;
+    }
+    .microMenu {
+        display: block;
+        background-color: white;
+        height: 30px;
     }
 }
 @media only screen and ()
