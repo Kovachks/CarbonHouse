@@ -514,6 +514,9 @@
     .getSocial {
         height: 570px;
     }
+    .eventToggle {
+        display: none;
+    }
 }
 @media (min-width: 1024px) {
     .newsLetterContent {
