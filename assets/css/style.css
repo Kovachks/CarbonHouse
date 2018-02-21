@@ -6,6 +6,9 @@
 .navStyle {
     padding-left: 5px;
 }
+.desktopArtistInfo {
+    display:none;
+}
 .navbar {
     border-radius: 0px;
 }
@@ -83,7 +86,6 @@
 }
 .headerText {
     text-align: center;
-
     font-size: 30px;
     display: block;
     margin: 0 auto;
@@ -334,6 +336,9 @@
     width: 33%;
     height: 65px;
 }
+.socialLinkHolder p {
+    display: none;
+}
 .socialLinkCenter {
     margin: 0 .5%;
 }
@@ -528,7 +533,9 @@
         height: 50px;
     }
     .addressTextContainer{
-        margin-left: 70px;
+        width: 75%;
+        display: block;
+        margin: 0 12.5% 0 12.5%;
         height: 50px;
     }
     .addressTextHeader{
@@ -678,20 +685,21 @@
         display: none;
     }
     .tourDay {
-        top: -5px;
+        top: -11px;
     }
     .artistDate {
         height: 35px;
     }
-    .artistHolder {
+    /* .artistHolder {
         padding:  0 .5%
     }
     .artistHolderLeft {
-        padding-left: 0;
+        padding: 0 1% 0 0;
+
     }
     .artistHolderRight {
-        padding-right: 0;
-    }
+        padding: 0 0 0 1%;
+    } */
     .main {
         margin: 0 4.5%;
         width: 91%;
@@ -749,4 +757,23 @@
         border-bottom: 76px solid rgb(46,46,46);
         border-right: 30px solid transparent;
     }
+    .buyTicketsLink {
+        display: none;
+    }
+    .desktopArtistInfo {
+        display:inline-block;
+        background-color: white;
+        width: 100%;
+    }
+    .artistName {
+        text-align: center;
+        font-size: 20px;
+        line-height: .923;
+        margin: 25px 0 0 0;
+    }      
+    .artistTour {
+        text-align: center;
+        margin: 5px 0 25px 0;
+    }
+
 }
