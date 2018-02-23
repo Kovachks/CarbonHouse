@@ -9,9 +9,32 @@
 .desktopArtistInfo {
     display:none;
 }
+.microMenu {
+    display: none;
+}
+.microMenu p{
+    float: left;
+}
+.login {
+    float: right;
+    text-align: left;
+    background-color: #de53f3;
+    height: 100%;
+    width: 175px;
+    padding: 0 20px;
+    border: none;
+    height: 45px;
+}
+.login p {
+    padding-right: 20px;
+    margin: 3px 0 0 0;
+    color: white;
+    text-transform: uppercase
+}
 .navbar {
     border-radius: 0px;
 }
+
 .logoDiv {
       color: white;
       float: left;
@@ -80,9 +103,9 @@
 .header {
     border-bottom: 2px solid black;
     padding: 0 0 20px 0;
-    margin-right: 4.5%;
-    margin-left: 4.5%;
-    width: 91%;
+    margin-right: 5.7%;
+    margin-left: 5.7%;
+    width: 88.6%;
 }
 .headerText {
     text-align: center;
@@ -521,7 +544,7 @@
         height: 570px;
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
     .newsLetterContent {
         width: 50%;
         margin: 61px auto;
@@ -536,6 +559,7 @@
         width: 75%;
         display: block;
         margin: 0 12.5% 0 12.5%;
+        text-align: center;
         height: 50px;
     }
     .addressTextHeader{
@@ -685,21 +709,10 @@
         display: none;
     }
     .tourDay {
-        top: -11px;
     }
     .artistDate {
         height: 35px;
     }
-    /* .artistHolder {
-        padding:  0 .5%
-    }
-    .artistHolderLeft {
-        padding: 0 1% 0 0;
-
-    }
-    .artistHolderRight {
-        padding: 0 0 0 1%;
-    } */
     .main {
         margin: 0 4.5%;
         width: 91%;
@@ -707,7 +720,7 @@
     .microMenu {
         display: block;
         background-color: white;
-        height: 30px;
+        height: 45px;
     }
     .getContainer {
         width: 91%;
@@ -731,7 +744,7 @@
         height: 80px;
         width: 200px;
         position: absolute;
-        top:-25px;
+        top:-35px;
         left: 4.5%;
     }
     .background1 {
@@ -775,5 +788,11 @@
         text-align: center;
         margin: 5px 0 25px 0;
     }
-
+    .tourDate {
+        display: inline;
+        vertical-align: middle;
+    }
+    .artistDate {
+        height: 45px;
+    }
 }
