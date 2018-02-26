@@ -9,7 +9,17 @@ function overlayGenerate() {
     }    
 }
 
+function loginPadding() {
+    var windowWidth = $(window).width()
+    $(".login").css("padding-right", windowWidth * .057)
+}
+
 $(document).ready(function() {
+    loginPadding()
     overlayGenerate()
 })
-overlayGenerate()
+
+window.onresize = function() {
+    loginPadding()
+}
+// overlayGenerate()

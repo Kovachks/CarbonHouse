@@ -1,4 +1,4 @@
-    body {
+body {
     background-color: rgb(229, 229, 229);
 }
 
@@ -21,20 +21,76 @@
     background-color: #de53f3;
     height: 100%;
     width: 175px;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
     border: none;
     height: 45px;
+    font-family: "Oswald";
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
+.Login {
+    font-size: 12px;
+    font-family: "Oswald";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2;
+    position: absolute;
+    left: 1310.937px;
+    top: 130px;
+    z-index: 264;
+    align-content: right;
+  }
 .login p {
-    padding-right: 20px;
+    padding-right: 10px;
     margin: 3px 0 0 0;
     color: white;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
+.microSocial {
+    text-transform: uppercase;
+    vertical-align: center;
+    padding: 8px 0;
+    float: left;
+    height: 100%;
+    width: 300px;
+    margin: 0 0 0 38%;
+    color: #de53f3;
+    font-family: "Oswald";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.microSocial p {
+    margin: 5px 10px 0 0;
+}
+.microSocial a {
+    padding: 0 10px;
+}
+.eventSearch {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: rgb(225, 225, 225);
+    float: right;
+    width: 20%;
+    height: 27px;
+    padding: 0 0 0 20px;
+    margin: 9px 2% 9px 0;
+    font-family: "Oswald";
+    border: none;
+}
+.Rectangle_56 {
+    background-color: rgb(225, 225, 225);
+    position: absolute;
+    left: 902px;
+    top: 125px;
+    width: 367px;
+    height: 30px;
+    z-index: 281;
+  }
 .navbar {
     border-radius: 0px;
 }
-
 .logoDiv {
       color: white;
       float: left;
@@ -90,6 +146,7 @@
     width: 75px;
     height: 63.8px;
 }
+
 /* Navbar */
 .navbar-inverse .navbar-nav>li>a {
     color: white;
@@ -193,7 +250,6 @@
     top: -8px;
     left: 15px;
 }
-  
 .triangleDown {
     position:absolute;
     right: 52px;
@@ -210,7 +266,6 @@
     right: 0;
     top: -8px; 
     z-index: auto;
-
 }
 .buyTicketsLink {
     padding-left: 0;
@@ -247,8 +302,6 @@
 .buyTicketsText {
     padding-left: 40%;
 }
-
-
 
 /* News Letter */
 .newsLetter {
@@ -453,7 +506,6 @@
     margin-bottom: 11.5px;
     margin-right: 7px;
     margin-left: 7px;
-    /* padding: 3px; */
     height: 12px;
     width: 12px;
 }
@@ -708,8 +760,6 @@
     .artistNameTour {
         display: none;
     }
-    .tourDay {
-    }
     .artistDate {
         height: 35px;
     }
@@ -794,5 +844,25 @@
     }
     .artistDate {
         height: 45px;
+    }
+}
+@media (max-width: 1204px) {
+    .eventSearch {
+        width: 18%;
+    }
+}
+@media (max-width: 1148px) {
+    .eventSearch {
+        width: 15%;
+    }
+}
+@media (max-width: 1074px) {
+    .eventSearch {
+        width: 13%;
+    }
+}
+@media (max-width: 1027px) {
+    .eventSearch {
+        width: 10%;
     }
 }
