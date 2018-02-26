@@ -64,8 +64,13 @@ body {
     margin: 5px 10px 0 0;
 }
 .microSocial a {
-    padding: 0 10px;
+    height: 100%;
+    margin: 0 10px;
 }
+.microSocial a img {
+    height: 100%;
+}
+
 .eventSearch {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -74,10 +79,22 @@ body {
     float: right;
     width: 20%;
     height: 27px;
-    padding: 0 0 0 20px;
+    padding: 0 40px 0 20px;
     margin: 9px 2% 9px 0;
     font-family: "Oswald";
     border: none;
+}
+.eventSearchSubmit {
+    background-color: rgb(225, 225, 225);
+    position: absolute;
+    top: 15px;
+    right: 17%;
+    background-image: url("../images/search.png");
+    border: none;
+    width: 15px;
+    height: 15px;
+    background-repeat: none;
+
 }
 .Rectangle_56 {
     background-color: rgb(225, 225, 225);
@@ -566,6 +583,9 @@ body {
     margin-bottom: 40px;
 }
     
+
+/* Media Queries */
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .socialLink {
         height: 100px;
@@ -736,16 +756,29 @@ body {
         padding: 0;
     }
     .eventToggle{
+        background-color: rgb(229, 229, 229);
         align-content: right;
         display: inline-block;
         padding-left: 5.5%;
         padding-right: 0;
     }
     .grid{
+        height: 42px;
+        width: 42px;
+        border: none;
+        background-image: url("../images/grid_checked.png");
         padding-right: 12px;
+        background-color: rgb(229, 229, 229)
     }
     .list{
-        padding-bottom: 5px;
+        height: 40px;
+        width: 40px;
+        border: none;
+        background-image: url("../images/hamburger_unchecked.png");
+        /* padding-bottom: 5px; */
+        margin: 0 10px 0px 10px;
+        border: none;
+        background-color: rgb(229, 229, 229)
     }
     .artistInfo {
         padding: 0;
@@ -846,6 +879,11 @@ body {
         height: 45px;
     }
 }
+@media (max-width: 1208px) {
+    .eventSearchSubmit {
+        right: 18%;
+    }
+}
 @media (max-width: 1204px) {
     .eventSearch {
         width: 18%;
@@ -855,14 +893,26 @@ body {
     .eventSearch {
         width: 15%;
     }
+    .eventSearchSubmit {
+        right: 19%;
+    }
 }
 @media (max-width: 1074px) {
     .eventSearch {
         width: 13%;
     }
+    .eventSearchSubmit {
+        right: 20%;
+    }
+}
+@media (max-width: 1047px) {
+    .eventToggle {
+        padding-left: 4%;
+    }
 }
 @media (max-width: 1027px) {
     .eventSearch {
+        padding: 0 0 0 5px;
         width: 10%;
     }
 }
