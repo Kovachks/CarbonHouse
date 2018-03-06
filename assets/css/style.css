@@ -30,18 +30,6 @@ body {
     line-height: 2;
     letter-spacing: 1px;
 }
-.Login {
-    font-size: 12px;
-    font-family: "Oswald";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 2;
-    position: absolute;
-    left: 1310.937px;
-    top: 130px;
-    z-index: 264;
-    align-content: right;
-  }
 .login p {
     padding-right: 10px;
     margin: 3px 0 0 0;
@@ -215,7 +203,7 @@ body {
 .artistTour {
     font-family: "Merriweather";
     padding-top: 5px;
-    font-size: 14px;
+    font-size: 13px;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 1px;
@@ -303,10 +291,7 @@ body {
     padding-right: 0;
     text-transform: uppercase;
 }
-.buyTickets:hover{
-    height: 50px;
-    line-height: 50px;
-}
+
 .buyTicketsText {
     padding-left: 40%;
 }
@@ -585,7 +570,19 @@ body {
     }
 }
 
-/* Media Queries */
+/* EDGE SPECIFIC CSS */
+
+@supports (-ms-ime-align: auto) {
+    .logoDiv {
+        width: 180px;      
+    }
+    .background1 {
+        width: 135px;
+    }
+
+}
+
+/* MEDIA QUERIES */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .main {
         width: 88.6%
@@ -620,6 +617,15 @@ body {
     }
 }
 @media (min-width: 991px) {
+    .buyTicketsText {
+        padding-left: 50%;
+    }
+    .buyTickets:hover .ticketImg {
+        transition: all .5s ease;
+        padding: 20px 0 14px 0;
+        padding-left: 40%;
+        float: left;
+    }
     .newsLetterContent {
         width: 50%;
         margin: 61px auto;
@@ -777,7 +783,6 @@ body {
         width: 40px;
         border: none;
         background-image: url("../images/hamburger_unchecked.png");
-        /* padding-bottom: 5px; */
         margin: 0 10px 0px 10px;
         border: none;
         background-color: rgb(229, 229, 229)
@@ -806,6 +811,7 @@ body {
         display: block;
         background-color: white;
         height: 45px;
+        overflow: hidden;
     }
     .getContainer {
         width: 91%;
@@ -881,7 +887,7 @@ body {
         height: 45px;
     }
     .ticketImg {
-        padding-left: 35%;
+        padding-left: 40%;
     }
 }
 @media (max-width: 1208px) {
@@ -927,3 +933,9 @@ body {
     }
 }
 
+.buyTickets:hover{
+    height: 55px;
+    margin-bottom: -5px;
+    padding-bottom: -5px;
+    line-height: 55px;
+}

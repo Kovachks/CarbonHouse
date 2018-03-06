@@ -9,14 +9,27 @@ function overlayGenerate() {
     }    
 }
 
+$(document).ready(function() {
+    loginPadding()
+    overlayGenerate()
+    $(".list").on("click", function() {
+        console.log("test")
+        listLayout()
+    })
+    
+    $(".grid").on("click", function() {
+        gridLayout()
+    })
+})  
+
 function loginPadding() {
     var windowWidth = $(window).width()
     $(".login").css("padding-right", windowWidth * .057)
 }
 
 function gridLayout() {
-    $(".grid").css("background-image", "url('./assets/images/grid_checked.png'")
-    $(".list").css("background-image", "url('./assets/images/hamburger_unchecked.png")
+    document.getElementById("grid").style.backgroundImage = "url('./assets/images/grid_checked.png')"
+    document.getElementById("list").style.backgroundImage = "url('./assets/images/hamburger_unchecked.png')"
     $(".artistNameTour").removeAttr("style")
     $(".desktopArtistInfo").removeAttr("style")
     $(".artistHolder").switchClass("col-md-12", "col-md-4")
@@ -25,8 +38,8 @@ function gridLayout() {
 }
 
 function listLayout() {
-    $(".grid").css("background-image", "url('./assets/images/grid_unchecked.png'")
-    $(".list").css("background-image", "url('./assets/images/hamburger_checked.png")
+    document.getElementById("grid").style.backgroundImage = "url('./assets/images/grid_unchecked.png')"
+    document.getElementById("list").style.backgroundImage = "url('./assets/images/hamburger_checked.png')"
     $(".artistNameTour").css("display", "block")
     $(".desktopArtistInfo").css("display", "none")
     $(".artistHolder").switchClass("col-md-4", "col-md-12")
@@ -40,6 +53,7 @@ $(document).ready(function() {
     loginPadding()
     overlayGenerate()
     $(".list").on("click", function() {
+        console.log("test")
         listLayout()
     })
     

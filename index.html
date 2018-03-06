@@ -11,10 +11,11 @@
     
     <!-- Custom Style Sheets -->
     <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -53,7 +54,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- <a class="navbar-brand" href="#">Brand</a> -->
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,9 +71,9 @@
         <div class="col-md-6 headerText">Upcoming Events</div>
         <div class="col-md-4"></div>
         <div class="col-md-2 eventToggle">
-                <button class="grid" src= alt="filter from a list layout to a grid layout">
+                <button class="grid" id="grid" src="./assets/images/grid_checked.png" alt="filter from a list layout to a grid layout"></button>
                 
-                <button class="list" src="./assets/images/hamburger_unchecked.png" alt="filter from a grid layout to list layout">
+                <button class="list" id="list" src="./assets/images/hamburger_unchecked.png" alt="filter from a grid layout to list layout"></button>
             </div>      
     </div>
     <div class="container main">
@@ -277,7 +277,7 @@
                         <div class="col-xs-12 tweetFooter">
                             <p class="tweetTime">8:14 PM / 3 APR 2015</p>
                             <div class="tweetButtons">
-                                    <a href="tweetButtonIcon">
+                                    <a href="">
                                             <img class="tweetButtonIcon" src="./assets/images/favorite.png" alt="">
                                         </a>
                                         <a href="">
