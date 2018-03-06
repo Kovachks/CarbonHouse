@@ -155,9 +155,8 @@ body {
 .header {
     border-bottom: 2px solid black;
     padding: 0 0 20px 0;
-    margin-right: 5.7%;
-    margin-left: 5.7%;
-    width: 88.6%;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .headerText {
     text-align: center;
@@ -556,7 +555,10 @@ body {
     height: 400px;
     margin-bottom: 40px;
 }
-    
+.nav li:hover {
+    transition: all .5s ease;
+    background-color: #de53f3
+}   
 /* FIREFOX SPECIFIC CSS */
 @-moz-document url-prefix() {
     .logoDiv {
@@ -582,6 +584,25 @@ body {
 }
 
 /* MEDIA QUERIES */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav li {
+        padding: 12px;
+    }
+    .nav li:hover {
+        transition: all .5s ease;
+        background-color: #de53f3;
+        padding: 12px;
+    }
+    .nav {
+        margin: 0
+    }
+    .header {
+        margin-right: 5.7%;
+        margin-left: 5.7%;
+        width: 88.6%;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .main {
         width: 88.6%
@@ -609,7 +630,6 @@ body {
     }
     .nav {
         font-size: 18px;
-        margin: 12.5px 0;
     }
     .getSocial {
         height: 570px;
@@ -744,10 +764,6 @@ body {
     .nav li a {
         padding: 26.5px;
     }
-    .nav li:hover {
-        transition: all .5s ease;
-        background-color: #de53f3
-    }
     .header {
         padding-bottom: 12px;
     }
@@ -766,7 +782,7 @@ body {
         background-color: rgb(229, 229, 229);
         align-content: right;
         display: inline-block;
-        padding-left: 5.5%;
+        padding-left: 5%;
         padding-right: 0;
     }
     .grid{
