@@ -904,6 +904,26 @@ body {
         right: 17.8%;
     }
 }
+@media (min-width: 1040px) {
+    .eventSearchSubmit {
+        right: 18%;
+    }
+}
+@media (min-width: 1150px) {
+    .eventSearchSubmit {
+        right: 17.5%;
+    }
+}
+@media (min-width: 1300px) {
+    .eventSearchSubmit {
+        right: 15%;
+    }
+}
+@media (min-width: 1550px) {
+    .eventSearchSubmit {
+        right: 13%;
+    }
+}
 @media (max-width: 1148px) {
     .eventSearch {
         width: 15%;
