@@ -899,6 +899,11 @@ body {
         width: 18%;
     }
 }
+@media (min-width: 950px) {
+    .eventSearchSubmit {
+        right: 17.8%;
+    }
+}
 @media (max-width: 1148px) {
     .eventSearch {
         width: 15%;
@@ -942,7 +947,4 @@ body {
     margin-bottom: -15px;
     padding-bottom: -15px;
     line-height: 55px;
-}
-.buyTicketsRight:hover{
-
 }
